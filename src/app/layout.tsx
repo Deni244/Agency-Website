@@ -20,8 +20,12 @@ export default function RootLayout({
       <body 
       className={`${robotoFlex.variable} ${robotoMono.variable} ${inter.variable}`}
       >
-        <Header />
-        {children}
+        <div className="container">
+          <Header />
+          <main>
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   );

@@ -12,3 +12,27 @@ a {
 ul {
     list-style-type: none;
 }
+.container {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0F0F0F;
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-right: 50px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1440px) {
+    .container {
+        padding-left: 40px;
+        padding-top: 30px;
+        padding-right: 40px;
+    }
+}
+
+@media (max-width: 1040px) {
+    .container {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
