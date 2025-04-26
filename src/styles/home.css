@@ -1,0 +1,17 @@
+.hero-section {
+    max-width: 1820px;
+    width: 100%;
+    margin: 20px auto;
+}
+.hero-section-1 {
+    display: flex;
+}
+.hero-section-1-title-cnt {
+    width: 1207px;
+    height: 592px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    box-sizing: border-box;
+    padding-top: 100px;
+    padding-left: 80px;
+}

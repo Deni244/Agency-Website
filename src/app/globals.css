@@ -12,6 +12,10 @@ a {
 ul {
     list-style-type: none;
 }
+button {
+    all: unset;
+}
+
 .container {
     width: 100%;
     min-height: 100vh;

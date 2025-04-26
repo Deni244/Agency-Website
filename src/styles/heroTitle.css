@@ -1,0 +1,15 @@
+.hero-tittle-container {
+    max-width: 1047px;
+}
+.hero-title-1-cnt {
+    display: flex;
+    gap: 30px;
+}
+.hero-title {
+    font-family: var(--font-roboto-flex);
+    font-weight: 600;
+    font-size: 78px;
+    line-height: 150%;
+    letter-spacing: -5.9px;
+    color: #F9EFEC;
+}

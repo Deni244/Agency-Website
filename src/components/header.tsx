@@ -21,7 +21,7 @@ export default function Header() {
                     <li className="nav-link-item"><Link className={`${pathName === '/about' && 'activeLink' } nav-link`} href={'/about'}>ABOUT</Link></li>
                     <li className="nav-link-item"><Link className={`${pathName === '/carers' && 'activeLink' } nav-link`} href={'/carers'}>CARERS</Link></li>
                     <li className="nav-link-item"><Link className={`${pathName === '/blog' && 'activeLink' } nav-link`} href={'/blog'}>BLOGS</Link></li>
-                    <li className="nav-link-item"><Link className={`${pathName === '/contact' && 'activeLink' } nav-link`} href={'/contact'}>CONTACT US</Link></li>
+                    <li className="nav-link-item"><Link className={`${pathName === '/contact' && 'text-red-300' } nav-link`} href={'/contact'}>CONTACT US</Link></li>
                 </ul>
                 <button className="menu-button">
                     <Image className="Menu-button" width={24} height={24} src="/MenuIcon.png" alt="Logo" priority /> 
