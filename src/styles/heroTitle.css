@@ -3,7 +3,7 @@
 }
 .hero-title-1-cnt {
     display: flex;
-    gap: 30px;
+    gap: 35px;
 }
 .hero-title {
     font-family: var(--font-roboto-flex);
@@ -12,4 +12,14 @@
     line-height: 150%;
     letter-spacing: -5.9px;
     color: #F9EFEC;
+}
+.hero-text {
+    color: #676665;
+    font-size: 18px;
+    max-width: 905px;
+    margin-top: 30px;
+}
+.hero-size-img-title {
+    width: 52px;
+    height: 52px;
 }

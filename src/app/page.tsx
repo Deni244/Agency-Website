@@ -1,19 +1,31 @@
-import HeroTitle from '@/components/HeroTitle'
+
+import HeroSection from '@/components/heroSection/HeroSection'
+import HeroTitle from '@/components/heroSection/HeroTitle'
+
 import '../styles/home.css'
+import HeroImage from '@/components/heroSection/HeroImage'
 
 export default function Home() {
   return (
-    <div className="hero-section">
-      <div className="hero-section-1">
-        <div className="hero-section-1-title-cnt">
-            <HeroTitle title1='Digital Solutions' title2='That Drive Success' />
-        </div>
-       
+    <>
+      <HeroSection 
+          block1={
+            <div className='hero-section-1'>
+              <HeroTitle 
+                  title1='Digital Solutions' 
+                  title2="That Drive Success"
+                  text = {<p className='hero-text'>At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.</p>} 
+              />
+             
+            </div>
 
-      </div>
-      <div className="hero-section-2">
-
-      </div>
-    </div>
+          }
+          block2 = {
+            <div className='hero-section-2'>
+                <HeroImage />
+            </div>
+          }
+          />
+     </>
   )
 }

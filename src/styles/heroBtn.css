@@ -3,16 +3,16 @@
     align-items: center;
     cursor: pointer;
 }
+
 .hero-btn-img-cnt {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
     background-color: #CE7D63;
-    width: 52px;
-    height: 52px;
     border-radius: 100%;
 }
+
 .hero-btn-shape {
     position: absolute;
     left: -10.5px;
@@ -25,3 +25,4 @@
     color: #CE7D63;
     margin-left: 8px;
 }
+

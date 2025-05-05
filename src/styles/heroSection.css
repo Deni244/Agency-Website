@@ -1,0 +1,26 @@
+.hero-section {
+    display: flex;
+    max-width: 1820px;
+    width: 100%;
+    margin: 20px auto;
+    gap: 20px;
+}
+
+.hero-section-1 {
+    font-family: var(--font-roboto-flex);
+    width: 1207px;
+    height: 592px;
+    background-color: #1A1A1A;
+    border-radius: 20px;
+    box-sizing: border-box;
+    /* padding-top: 100px; */
+    padding-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.modal-block {
+    width: 1167px;
+    height: 70px;
+    background-color: red;
+}
