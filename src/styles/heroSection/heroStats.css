@@ -1,0 +1,9 @@
+.hero-stats-cnt {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    border: 2px solid #1F1F1F;
+    gap: 20px;
+    flex: 1;
+    border-radius: 20px;
+}

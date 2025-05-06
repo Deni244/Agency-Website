@@ -1,5 +1,6 @@
 .hero-section {
     display: flex;
+    flex-wrap: wrap;
     max-width: 1820px;
     width: 100%;
     margin: 20px auto;

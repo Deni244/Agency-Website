@@ -1,0 +1,26 @@
+.hero-stats-cart-cnt {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1A1A1A;
+    border-radius: 12px;
+    height: 150px;
+    min-width: 266.5px;
+}
+.hero-stats-cart-cnt h3 {
+    font-family: var(--font-roboto-mono);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    margin-top: 35px;
+    color: #B3B3B2;
+}
+.hero-stats-cart-cnt p {
+    font-family: var(--font-roboto-flex);
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #DA9E8B;
+}

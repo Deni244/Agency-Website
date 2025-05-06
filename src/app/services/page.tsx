@@ -1,5 +1,6 @@
 import HeroSection from "@/components/heroSection/HeroSection";
 import HeroTitle from "@/components/heroSection/HeroTitle";
+import ListServices from "@/components/heroSection/ListServices";
 
 
 
@@ -13,7 +14,7 @@ export default function Services() {
                       <HeroTitle title1='Our Comprehensive' title2="Digital Solutions" 
                       text = {<p className='hero-text'>At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.</p>} 
                       />
-                      
+                      <ListServices />
                     </div>
         
                   }
