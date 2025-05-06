@@ -1,5 +1,5 @@
 
-import '../../styles/heroSection.css'
+import '../../styles/heroSection/heroSection.css'
 
 type Props = {
     block1 : React.ReactNode;

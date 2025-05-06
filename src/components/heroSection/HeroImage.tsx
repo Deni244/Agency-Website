@@ -1,6 +1,6 @@
 
 import Image from 'next/image'
-import '../../styles/heroImage.css'
+import '../../styles/heroSection/heroImage.css'
 import HeroButton from './HeroButton'
 
 export default function HeroImage() {

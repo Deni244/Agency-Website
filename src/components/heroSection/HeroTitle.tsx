@@ -1,7 +1,7 @@
 
 
 import Image from 'next/image';
-import '../../styles/heroTitle.css'
+import '../../styles/heroSection/heroTitle.css'
 import HeroButton from './HeroButton'
 
 

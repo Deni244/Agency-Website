@@ -1,5 +1,5 @@
 import Image from "next/image";
-import '../../styles/heroBtn.css'
+import '../../styles/heroSection/heroBtn.css'
 
 type Props = {
     text?: string;

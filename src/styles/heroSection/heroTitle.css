@@ -1,5 +1,6 @@
 .hero-tittle-container {
     max-width: 1047px;
+    margin-left: 60px;
 }
 .hero-title-1-cnt {
     display: flex;

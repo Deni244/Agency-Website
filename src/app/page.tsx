@@ -4,6 +4,7 @@ import HeroTitle from '@/components/heroSection/HeroTitle'
 
 import '../styles/home.css'
 import HeroImage from '@/components/heroSection/HeroImage'
+import ListServices from '@/components/heroSection/ListServices'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
                   title2="That Drive Success"
                   text = {<p className='hero-text'>At NexGen, we believe in the transformative power of digital solutions. Our team of experts is dedicated to helping businesses like yours thrive in the fast-paced digital landscape.</p>} 
               />
+              <ListServices />
              
             </div>
 
