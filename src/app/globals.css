@@ -27,7 +27,7 @@ button {
     box-sizing: border-box;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1920px) {
     .container {
         padding-left: 40px;
         padding-top: 30px;

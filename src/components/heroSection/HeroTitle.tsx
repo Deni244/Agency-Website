@@ -16,15 +16,17 @@ export default function HeroTitle ({title1, title2, text}: Props) {
 
     return (
         <div className="hero-tittle-container">
-            <div className="hero-title-1-cnt">
-                <h1 className="hero-title">{title1?.toLocaleUpperCase()}</h1>
+            <div className='hero-titile-btn-cnt'>
+                <div className="hero-title-1-cnt">
+                    <h1 className="hero-title">{title1?.toLocaleUpperCase()}</h1>
+                    <h1 className="hero-title">{title2?.toLocaleUpperCase()}</h1>
+                </div>
                 <HeroButton 
-                text='START A PROJECT'
-                classStyle='hero-size-img-title'
-                shape = {<Image className="hero-btn-shape" width={65} height={77} src={'/Shape1.png'} alt="Shape"/>}
-                />
+                    text='START A PROJECT'
+                    classStyle='hero-size-img-title'
+                    shape = {<Image className="hero-btn-shape" width={65} height={77} src={'/Shape1.png'} alt="Shape"/>}
+                    />
             </div>
-                <h1 className="hero-title">{title2?.toLocaleUpperCase()}</h1>
                 {text}
         </div>
     )

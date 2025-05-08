@@ -1,11 +1,12 @@
 .hero-list-services-cnt {
+  display: flex;
+  align-items: center;
     max-width: 1167px;
     width: 100%;
     height: 70px;
     border-radius: 12px;
     background-color: #0F0F0F;
     overflow: hidden;
-    padding: 20px 0;
     box-sizing: border-box;
   }
   
@@ -42,5 +43,32 @@
     }
     100% {
       transform: translateX(-50%);
+    }
+  }
+
+  @media (max-width: 1920px) {
+    .hero-list-services-cnt {
+      height: 56px;
+      border-radius: 10px;
+    }
+    .hero-list-roller {
+      gap: 10px;
+    }
+    .hero-list-item {
+      font-size: 16px;
+    }
+    .hero-list-item div {
+      margin-right: 10px;
+    }
+
+  }
+  @media (max-width: 1440px) {
+    .hero-list-services-cnt {
+      max-width: inherit;
+    }
+  }
+  @media (max-width: 525px) {
+    .hero-list-item {
+      font-size: 14px;
     }
   }

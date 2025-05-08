@@ -22,9 +22,7 @@ export default function Home() {
             </div>
           }
           block2 = {
-            <div className='hero-section-2'>
                 <HeroImage />
-            </div>
           }
           block3 = {
             <HeroStats />

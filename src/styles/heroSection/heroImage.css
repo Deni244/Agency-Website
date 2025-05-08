@@ -62,3 +62,44 @@
     width: 111px;
     top: -14px;
 }
+@media (max-width: 1920px) {
+    .hero-image-section {
+        width: 452px;
+        height: 472px;
+        border-radius: 12px;
+    }
+    .hero-image-section img {
+        width: 452px;
+        height: 368px;
+    }
+    .hero-image-content {
+        padding-left: 24px;
+    }
+    .hero-image-content h3 {
+        font-size: 20px;
+    }
+    .hero-image-content p {
+        font-size: 16px;
+    }
+    .hero-sect-2-size-img {
+        width: 60px;
+        height: 60px;
+        top: -9px;
+        left: 14px;
+    }
+    .hero-sect-2-size-img img:first-child {
+        width: 40px;
+        height: 40px;
+    }
+    .hero-sect-2-size-img img:last-child {
+        left: -23px;
+        height: 105px;
+        width: 83px;
+        top: -20px;
+    }
+}
+@media (max-width: 1440px) {
+    .hero-image-section {
+        display: none;
+    }
+}

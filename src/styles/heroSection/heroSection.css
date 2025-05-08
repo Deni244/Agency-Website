@@ -26,3 +26,38 @@
     height: 70px;
     background-color: red;
 }
+
+@media (max-width: 1920px) {
+    .hero-section {
+        gap: 16px;
+        max-width: 1360px;
+        margin-top: 42px;
+    }
+    .hero-section-1{
+        width: 892px;
+        height: 474px;
+        padding-top: 80px;
+        padding-left: 16px;
+        padding-right: 16px;
+        border-radius: 16px;
+    }
+}
+@media (max-width: 1440px) {
+    .hero-section {
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+    .hero-section-1 {
+        width: inherit;
+        align-items: center;
+        padding-top: 30px;
+        padding-left: 24px;
+        padding-right: 24px;
+        height: 430px;
+    }
+}
+@media (max-width: 525px) {
+    .hero-section-1 {
+        height: 378px;
+    }
+}
